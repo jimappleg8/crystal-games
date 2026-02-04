@@ -5,6 +5,8 @@ eleventyNavigation:
   key: About This Project
   parent: project
   order: 1
+tags: project
+navKey: project-section
 ---
 {% section %}
 
