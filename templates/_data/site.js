@@ -6,10 +6,10 @@
 export default {
 
   // The title of your site, used in the <title> tag and other places.
-  title: "Open Artifacts 11ty Starter",
+  title: "Crystal Word Chain",
 
   // A short description of your site, used for SEO and other metadata.
-  description: "An Eleventy starter template for creating Open Artifacts projects.",
+  description: "A collection of word games that includes Crystal Connections.",
 
   // Information about the site maintainer.
   maintainer: {
@@ -22,7 +22,7 @@ export default {
   license: "CC BY 4.0",
 
   // Tags for your site, used for categorization and discovery.
-  tags: ["website", "template", "eleventy", "open artifacts"],
+  tags: ["website", "word games", "eleventy", "open artifacts"],
 
   // Important URLs for your site.
   urls: {
@@ -52,14 +52,11 @@ export default {
     linkedIn: "https://www.linkedin.com/in/jimapplegate/"
   },
 
-  showStarterKit: true,
-
   // Main Menu configuration.
   mainMenu: [
     { text: "Home", link: "/index.html" },
-    { text: "Starter Kit", link: "/starter-kit/" },
-    { text: "The Project", link: "/project/" },
-    { text: "How to Contribute", link: "/how-to-contribute.html" }
+    { text: "The Project", link: "/project/about-this-project/" },
+    { text: "How to Contribute", link: "/how-to-contribute/" }
   ],
-
+  
 };

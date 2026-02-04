@@ -1,2 +1,7 @@
-# open-artifacts-11ty-starter
-A built-from-scratch starter template for open artifacts websites.
+# Crystal Games
+
+The home of Crystal Word Chain and Crystal Connections.
+
+To learn more, visit https://crystalwordchain.com/
+
+

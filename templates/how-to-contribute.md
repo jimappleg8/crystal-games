@@ -1,7 +1,6 @@
 ---
 layout: default
 title: How to Contribute
-permalink: /how-to-contribute.html
 ---
 {% section %}
 
