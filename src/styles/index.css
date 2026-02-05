@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @plugin "@tailwindcss/typography";
-@import './themes/default.css';
+@import './themes/disruptor.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 

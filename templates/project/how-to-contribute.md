@@ -4,7 +4,7 @@ title: How to Contribute
 eleventyNavigation:
   key: How to Contribute
   parent: contribute
-  order: 1
+  order: 41
 tags: project
 navKey: project-section
 ---

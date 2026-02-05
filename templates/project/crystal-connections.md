@@ -1,11 +1,12 @@
 ---
 layout: sidebar-page
-title: Crystal Connections
+title: About Crystal Connections
 eleventyNavigation:
-  key: Crystal Connections
-  parent: project
-  order: 3
-permalink: /project/crystal-connections.html
+  key: About Crystal Connections
+  parent: crystal-connections
+  order: 31
+tags: project
+navKey: project-section
 ---
 {% section %}
 
