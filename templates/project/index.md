@@ -10,9 +10,11 @@ navKey: project-section
 ---
 {% section %}
 
-# About This Project
+{% pageHeader "About This Project", "","Project Details" %}
 
-Crystal Word Chain is a simple game where you create a chain of pairs of words. It's not particularly insightful usually, but it is fun. We started it as a game to pass the time on a long drive to Oregon where my companion was going to start her career as a music teacher.
+Crystal Word Chain is a simple game where you create a chain of pairs of words. It's not particularly challenging usually, but it is fun. We started it as a game to pass the time on a long drive to Oregon where my companion was going to start her career as a music teacher.
+
+The original version was just "Word Chain". It was a single string of words and the goal was to get back to the seed word and make a loop. So, as a very short loop you might have `road > side > road` where "roadside" and "side road" are all you need to complete the loop. Later, we thought it would be interesting to make it more challenging by making it 2-dimensional and Crystal Word Chain was born.
 
 As I thought about it more, I realized that we could try to make more meaningful connection between words and concepts. I had heard of the Glass Beads Game from Hermann Hesse's novel of the same name, and I thought it would be interesting to see if we could create a similar game using the same game boards.
 

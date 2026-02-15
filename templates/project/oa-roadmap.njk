@@ -8,18 +8,13 @@ eleventyNavigation:
 tags: project
 navKey: project-section
 ---
+{% section %}
 
-<div class="max-w-3xl mx-auto py-12 px-6">
-  
-  <header class="mb-12">
-    <h1 class="text-4xl font-bold text-slate-900 mb-4">{{ title }}</h1>
-    <p class="text-xl text-slate-600">
-      Help us build this Open Artifact.<br>Below is our vision for the future and the tasks we need help with.
-    </p>
-    <a href="/oa-roadmap.json" class="text-sm text-indigo-600 underline mt-2 block">View Raw Data (JSON)</a>
-  </header>
+  {% pageHeader "Our Project Roadmap", "Help us build this Open Artifact. Below is our vision for the future and the tasks we need help with.", "How to Contribute" %}
 
-  <div class="space-y-12">
+  {% button "View Raw Data (JSON)", "/oa-roadmap.json" %}
+
+  <div class="mt-12 space-y-12">
     {% for milestone in roadmap %}
     <section class="border border-slate-200 rounded-xl overflow-hidden shadow-sm">
       
@@ -55,4 +50,4 @@ navKey: project-section
     {% endfor %}
   </div>
 
-</div>
+{% endsection %}

@@ -10,7 +10,7 @@ navKey: project-section
 ---
 {% section %}
 
-# Crystal Word Chain Downloads
+{% pageHeader "Downloads", "","Crystal Word Chain" %}
 
 - [The Crystal Word Chain Game Board (full board)](/assets/pdfs/crystal-word-chain-full-board-cm.pdf)
 - [The Crystal Word Chain Game Board (small board)](/assets/pdfs/crystal-word-chain-small-board-cm.pdf)

@@ -10,7 +10,7 @@ navKey: project-section
 ---
 {% section %}
 
-# Crystal Word Chain Rules of the Game
+{% pageHeader "Rules of the Game", "","Crystal Word Chain" %}
 
 ### Object of the Game
 
@@ -20,26 +20,21 @@ The object of the game is to fill in the blanks on the board with words accordin
 
 This game is about having fun and being as creative as possible. Use the rules to keep chaos from setting in, but remember that creativity counts for as much as following the rules exactly.
 
-<img src="/assets/images/seed-word-card-example.png" width="400">
-
-This is one of the six seed word cards from the download above. Roll a die three times to find your seed word.
-
 1. Start by choosing a word for the center of the crystal. You can either choose a seed word by using the seed word cards and rolling a die, or use another word of the group’s choosing. No one gets points for putting in the seed word.
+
+{% image "seed-word-card-example.png", "Seed word card example", "This is one of the six seed word cards (available on the [downloads page](/project/cwc-downloads/)). Roll a die three times to find your seed word.", "center" %}
+
 2. Moves are made by combining existing words on the board with new words to make familiar phrases or compound words. Each new word added to the crystal is placed in an adjacent oval, triangular or circular space, and only one space can be filled in per turn. For example, if the word “tea” was already on the board, a player could enter “time” in the adjacent space to create the phrase “tea time.” The next player might enter “machine” in the next space to create “time machine.”
 3. To keep the game challenging and fair, words must be entered according to the following rules.
   - The word combinations must work in the order indicated by the arrows on the board.
   - A word cannot be used twice if it is connected to the same word at a circle.
   - Purple spaces can only be filled in when the two white spaces on either end are filled in. The word entered into the purple space must work with both words in the adjacent white spaces in the order indicated by the arrows. For example:
 
-<img src="/assets/images/blue-space-example.png" width="300" height="150">
-
-(tea time, time machine)
+{% image "blue-space-example.png", "Blue space example", "(tea time, time machine)", "center" %}
 
   - Pink spaces can only be filled in when either all three of its corner circle links or all three of its side oval links are filled in. The word entered into the pink space must work with either all three corners or all three sides, but it can work in any direction. For example:
 
-<img src="/assets/images/pink-space-example.png" width="300" height="225">
-
-(outhouse, blackout and time-out)
+{% image "pink-space-example.png", "Pink space example", "(outhouse, blackout and time-out)", "center" %}
 
 ### Valid Word Combinations
 
