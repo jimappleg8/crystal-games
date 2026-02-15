@@ -1,0 +1,26 @@
+---
+layout: sidebar-page
+title: Crystal Connections Prompts
+eleventyNavigation:
+  key: Prompts
+  parent: crystal-connections
+  order: 33
+tags: project
+navKey: project-section
+---
+{% section %}
+
+{% pageHeader "Prompts", "","Crystal Connections" %}
+
+<p>These are simple cards that you can print and cut out if you like. We are working on an interactive version of these that will choose one randomly for you.</p>
+
+<div class="flex flex-wrap gap-1">
+{% for prompt in ccPrompts %}
+  <div class="border rounded p-6 w-[calc(50%-0.25rem)] text-center">
+    <div class="text-lg font-serif p-0 m-0">{{ prompt.type }}</div>
+    <div class="text-sm font-bold p-0 m-0 pt-1">{{ prompt.prompt }}</div>
+  </div>
+{% endfor %}
+</div>
+
+{% endsection %}

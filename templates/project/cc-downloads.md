@@ -4,7 +4,7 @@ title: Crystal Connections Downloads
 eleventyNavigation:
   key: Downloads
   parent: crystal-connections
-  order: 33
+  order: 35
 tags: project
 navKey: project-section
 ---
@@ -14,6 +14,6 @@ navKey: project-section
 
 We have plans to create a special board for Crystal Connections, but for now you can use one of the Crystal Word Chain boards.
 
-{% button "Go to Downloads", "/project/cwc-downloads/" %}
+{% button "Go to Crystal Word Chain Downloads", "/project/cwc-downloads/" %}
 
 {% endsection %}

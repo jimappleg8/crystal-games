@@ -26,12 +26,39 @@ This goal of the game is to have fun and be as creative as possible. Use the rul
 
 3. The player then adds their word to the board. Each new word added to the crystal is placed in an adjacent oval, triangular or circular space, and only one space can be filled in per turn.
 
-### Valid Word Combinations
+4. The structure of the board make it possible to make more than one connection at a time. If you want to keep "score" during the game, points are based on how many interconnections one makes in one move, according to these rules.
+  - Connections are not directional like they are in Crystal Word Chain. If you are using the CWC board, you can ignore the arrows on the board.
+  - A concept cannot be used twice if it is connected to the same word at a circle.
+  - Purple spaces can only be filled in when the two white spaces on either end are filled in. The word entered into the purple space must work with both words in the adjacent white spaces. For example:
+
+  {% image "cc-blue-space-example.png", "Pink space example", "(The ritual of making and drinking tea is a way to create space in our lives, and light—in the sense of not being heavy—is a meaningless concept in the weightlessness of space.)", "center" %}
+
+  - Pink spaces can only be filled in when either all three of its corner circle links or all three of its side oval links are filled in. The word entered into the pink space must work with either all three corners or all three sides. For example:
+
+{% image "cc-pink-space-example.png", "Pink space example", "(I can imagine a British couple having afternoon tea in their home with the afternoon light streaming in the window.)", "center" %}
+
+### Using Prompts
+
+If you would like a suggestion of how you might make a connection to a word on the board, you can choose to select a prompt. These prompts help you make connections of the following types:
+
+- Sensory Experience: Ground the concept in how you sense the world.
+- Emotional Resonance: Connect the concept to feelings, the body, or values.
+- Field of Knowledge (What You Think You Know): Connect the concept to a specific domain (science, linguistics, etc.)
+- Cultural Mirror: How is this reflected in art, media, and society?
+- Human Constructs: Consider how the idea is reflected in the human-designed world we live in.
+- Evolutionary Potential: Imagine how the concept might contribute to the evolution of the human-designed world. 
+- Perspective Shift: Look at an idea metaphorically, symbolically, or from a new angle.
 
 ### Scoring
 
+If you choose to keep score:
+
+- White Space = 1 point
+- Purple Space = 3 points
+- Pink Space = 5 points
+
 ### Ending the Game
 
-
+The game ends when the crystal is filled, there is no more time to play, or when the group decides it’s over.
 
 {% endsection %}

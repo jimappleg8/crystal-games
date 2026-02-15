@@ -1,0 +1,25 @@
+---
+layout: sidebar-page
+title: Crystal Connections Seeds
+eleventyNavigation:
+  key: Seed Words
+  parent: crystal-connections
+  order: 34
+tags: project
+navKey: project-section
+---
+{% section %}
+
+{% pageHeader "Seed Words", "","Crystal Connections" %}
+
+<p>These are simple cards that you can print and cut out if you like. We are working on an interactive version of these that will choose one randomly for you.</p>
+
+<div class="flex flex-wrap gap-1">
+{% for seed in ccSeedWords %}
+  <div class="border rounded p-1 w-[calc(25%-0.25rem)] text-center">
+    <p class="text-sm">{{ seed.word }}</p>
+  </div>
+{% endfor %}
+</div>
+
+{% endsection %}

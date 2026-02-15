@@ -85,7 +85,7 @@ export default {
   },
 
   // Set this to false to effectively remove the Starter Kit pages from the site.
-  showStarterKit: true,
+  showStarterKit: false,
 
   // Main Menu configuration.
   // The Starter Kit link will not be displayed if `showStarterKit` is false.

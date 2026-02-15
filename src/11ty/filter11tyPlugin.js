@@ -1,6 +1,8 @@
 // Get the i18n dictionary
 import translations from "../../templates/_data/i18n.js";
 
+import { inspect } from "util";
+
 // Set up markdown-it for rendering markdown content
 import markdownIt from 'markdown-it'
 const md = new markdownIt({ html: true });
