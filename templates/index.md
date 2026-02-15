@@ -21,5 +21,4 @@ permalink: /index.html
 ## Welcome to the Crystal Word Chain family of games
 
 
-
 {% endsection %}
